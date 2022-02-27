@@ -13,8 +13,10 @@ body {
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
     position: relative;
 }
@@ -27,7 +29,7 @@ header::before {
     left: 50%;
     bottom: 0;
     width: 100vh;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
     border-radius: 50%;
     transform-origin: bottom;
@@ -35,7 +37,7 @@ header::before {
 }
 
 header > nav {
-    margin-top: 30px;
+    margin-bottom: 50px;
     position: relative;
     z-index: 1;
     display: flex;
@@ -79,4 +81,44 @@ header > nav > ul > li > button {
     border: 0;
     border-radius: 20px;
     font-weight: bold;
+}
+
+header > .header-box {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+header > .header-box > .header-content {
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+
+header > .header-box > .header-content > h1 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+header > .header-box > .header-content > p {
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+header > .header-box > .header-content > button {
+    background-color: #ff00d4;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+header > .header-box > .header-image {
+    
 }
