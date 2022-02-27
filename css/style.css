@@ -83,6 +83,11 @@ header > nav > ul > li > button {
     font-weight: bold;
 }
 
+header > nav > ul > li > button > i.fa-whatsapp {
+    padding-right: 3px;
+    font-size: 16px;
+}
+
 header > .header-box {
     margin-top: 30px;
     position: relative;
